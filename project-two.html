@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Final Project-two</title>
+<style>
+    body{
+        margin: 0px;
+        background-color: rgb(0, 0, 17); 
+    }
+    .container{
+        margin-left: 30%;
+        margin-right: 30%;
+        cursor: zoom-in;   
+        line-height: 1.05;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    }
+    .divs{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 1.125;
+    }
+    .colors{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 7px;
+        font-size: 14px;
+        height: 50px;
+        background-color: white;
+        color: rgba(12, 119, 241, 0.973);
+     
+    }
+    .blue-item{
+       padding: 7.5px;
+        background-color: hwb(207 1% 72% / 0.63);
+        color: white;  
+    }
+    .hero-one{
+        font-size: 40px;
+        font-weight: 900;
+    
+    }
+    .hero-two{
+        font-size: 18px;
+    }
+    .header{
+        font-size: 24px;
+    }
+
+    .white-item{
+         padding: 7.5px;
+        color: black;
+        background-color: white;
+    }
+    .button{
+        color: rgb(56, 152, 231);
+    }
+    .information{
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .silver-item{
+         padding: 7.5px;
+         padding-bottom: 5px;
+        background-color: silver;
+        color: rgb(36, 34, 34);  
+    }
+    .quote-text{
+        font-size: 36px;     
+    }
+    p{
+        margin-bottom: 0;
+        font-size: 10px;
+        word-spacing: 5px;
+        font-weight: 900;
+        }
+</style>
+</head>
+<body>
+     <div class="container">
+        <div class="colors">
+            <h1>colors and font styles</h1>
+        </div>
+        <div class="blue-item">
+            <div class="divs">
+                <p>font used</p>
+               <div class="font"> Roboto</div>
+            </div>
+            <div class="divs">
+                <p>dark backgrond color (hero and footer)</p>
+               <div class="dark">#1F2937</div>
+            </div>
+            <div class="divs">
+                <p> Hero Main text ("this website is awesome")</p>
+                <div class="hero-one">48px #F9FAF8 weight:900</div>
+            </div>
+            <div class="divs">
+                <p>Hero Secondary text, Header Link Text</p>
+                <div class="hero-two">18px #E5E7EB</div>
+            </div>
+            <div class="divs">
+                <p>Header Logo Text</p>
+                <div class="header">24px #F9FAF8</div> 
+            </div>
+        </div>
+        <div class="white-item">
+            <div class="divs">
+                <p>Btton color , call to action background color</p>
+                <div
+                class="button">#3882f6</div>
+            </div>
+            <div class="divs">
+                <p>information header text</p>
+                <div class="information">36px #1F2937 weight: 900</div>
+            </div>
+        </div>
+        <div class="silver-item">
+            <div class="divs">
+                <p>Quote section background color</p>
+                <div class="quote">#E5E7EB</div>
+            </div>
+            <div class="divs">
+                <p>Quote text</p>
+                <div class="quote-text">36px light italic #1F2937</div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
